@@ -1,8 +1,14 @@
+.row{
+  margin-left:20px ;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
 .row__posters{
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  padding: 20px;
+  margin-top: 1rem;
+  padding-right: 20px;
 }
 .row__posters::-webkit-scrollbar{
   display: none;
