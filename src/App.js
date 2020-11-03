@@ -3,11 +3,13 @@ import Row from "./Components/Row";
 import requests from "./request";
 import "./App.css";
 import Banner from "./Components/Banner";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <div className="app">
-      <Banner/>
+      <Nav />
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         isLargeRow

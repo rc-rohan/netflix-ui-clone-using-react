@@ -9,6 +9,7 @@ function Row({ title, fetchURL,isLargeRow }) {
     async function fetchData() {
       const request = await axios.get(fetchURL);
       setMovies(request.data.results);
+      console.log(request.data.results);
     }
     fetchData();
     // in useEffect we need to add any of the variable as the dependency if that is used inside useEffect and that keeps on changing so here in this case we add up the  fetchURL
