@@ -43,6 +43,7 @@ function Row({ title, fetchURL, isLargeRow }) {
       autoplay: 1,
     },
   };
+  
   return (
     <div className="row">
       <h2>{title}</h2>
